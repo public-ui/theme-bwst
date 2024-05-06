@@ -1,0 +1,65 @@
+{
+	"name": "@public-ui/theme-bwst",
+	"version": "1.0.0-alpha.0",
+	"private": true,
+	"type": "module",
+	"sideEffects": false,
+	"scripts": {
+		"build": "rollup -c",
+		"dev": "rollup -c --watch",
+		"format": "prettier --check src",
+		"lint": "tsc --noemit && eslint src",
+		"ncu:major": "ncu",
+		"ncu:minor": "ncu -t minor -u",
+		"ncu:patch": "ncu -t patch -u",
+		"prepack": "pnpm build",
+		"start": "npm-run-all --parallel dev serve",
+		"serve": "cross-env THEME_MODULE=\"`pwd`/dist\" THEME_EXPORT=BWSt npm --prefix \"node_modules/@public-ui/sample-react/\" start",
+		"xtest": "THEME_MODULE=dist THEME_EXPORT=BWSt kolibri-visual-test",
+		"xtest-update": "THEME_MODULE=dist THEME_EXPORT=BWSt kolibri-visual-test --update-snapshots theme-snapshots.spec.js",
+		"pretest": "pnpm build",
+		"pretest-update": "pnpm build",
+		"update": "pnpm ncu:patch && pnpm ncu:minor && pnpm ncu:major"
+	},
+	"devDependencies": {
+		"@public-ui/components": "2.1.0",
+		"@public-ui/visual-tests": "2.1.0",
+		"@rollup/plugin-commonjs": "25.0.7",
+		"@rollup/plugin-node-resolve": "15.2.3",
+		"@rollup/plugin-typescript": "11.1.6",
+		"@types/node": "ts5.4",
+		"@typescript-eslint/eslint-plugin": "7.8.0",
+		"@typescript-eslint/parser": "7.8.0",
+		"eslint": "8.57.0",
+		"nodemon": "3.1.0",
+		"npm-check-updates": "16.14.20",
+		"postcss": "8.4.38",
+		"prettier": "3.2.5",
+		"rollup": "4.17.2",
+		"rollup-plugin-postcss": "4.0.2",
+		"sass": "1.76.0",
+		"typescript": "5.4.5"
+	},
+	"peerDependencies": {
+		"@public-ui/components": "2.1.0"
+	},
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.mjs",
+			"require": "./dist/index.cjs"
+		}
+	},
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.mjs",
+	"types": "./dist/index.d.ts",
+	"files": [
+		"assets",
+		"dist"
+	],
+	"engines": {
+		"node": "^20",
+		"npm": "^10",
+		"pnpm": "^8"
+	}
+}
