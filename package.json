@@ -22,26 +22,26 @@
 		"update": "pnpm ncu:patch && pnpm ncu:minor && pnpm ncu:major"
 	},
 	"devDependencies": {
-		"@public-ui/components": "2.1.0",
-		"@public-ui/visual-tests": "2.1.0",
-		"@rollup/plugin-commonjs": "25.0.7",
+		"@public-ui/components": "2.1.1",
+		"@public-ui/visual-tests": "2.1.1",
+		"@rollup/plugin-commonjs": "25.0.8",
 		"@rollup/plugin-node-resolve": "15.2.3",
 		"@rollup/plugin-typescript": "11.1.6",
 		"@types/node": "ts5.4",
-		"@typescript-eslint/eslint-plugin": "7.8.0",
-		"@typescript-eslint/parser": "7.8.0",
+		"@typescript-eslint/eslint-plugin": "7.11.0",
+		"@typescript-eslint/parser": "7.11.0",
 		"eslint": "8.57.0",
-		"nodemon": "3.1.0",
+		"nodemon": "3.1.2",
 		"npm-check-updates": "16.14.20",
 		"postcss": "8.4.38",
 		"prettier": "3.2.5",
-		"rollup": "4.17.2",
+		"rollup": "4.18.0",
 		"rollup-plugin-postcss": "4.0.2",
-		"sass": "1.76.0",
+		"sass": "1.77.3",
 		"typescript": "5.4.5"
 	},
 	"peerDependencies": {
-		"@public-ui/components": "2.1.0"
+		"@public-ui/components": "2.1.1"
 	},
 	"exports": {
 		".": {
@@ -60,6 +60,6 @@
 	"engines": {
 		"node": "^20",
 		"npm": "^10",
-		"pnpm": "^8"
+		"pnpm": "^9"
 	}
 }

@@ -32,7 +32,7 @@ Das Default-Theme ist ein _Token-Based_ Theme, das mit minimalen Anpassungen sof
 | Variable                          | Standard-Wert                                                    | Bedeutung                                          |
 | --------------------------------- | ---------------------------------------------------------------- | -------------------------------------------------- |
 | `--kolibri-border-radius`         | `5px`                                                            | Border-Radius für abgerundete Elemente             |
-| `--kolibri-font-family`           | `BundesSans Web, Calibri, Verdana, Arial, Helvetica, sans-serif` | Allgemeine Schriftart                              |
+| `--kolibri-font-family`           | `Calibri, Verdana, Arial, Helvetica, sans-serif` | Allgemeine Schriftart                              |
 | `--kolibri-font-size`             | `16px`                                                           | Allgemeine Schriftgröße                            |
 | `--kolibri-spacing`               | `0.25rem`                                                        | Allgemeiner Abstand zwischen Elementen             |
 | `--kolibri-border-width`          | `1px`                                                            | Allgemeine Rahmen-Breite                           |
