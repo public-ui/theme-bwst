@@ -2,4 +2,5 @@
 
 export THEME_MODULE="`pwd`/dist"
 export THEME_EXPORT=BWSt
-npm --prefix "node_modules/@public-ui/sample-react/" start
+cd node_modules/@public-ui/sample-react/
+npm  start
