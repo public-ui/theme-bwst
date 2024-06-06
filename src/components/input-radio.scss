@@ -14,6 +14,7 @@
 		width: 100%;
 	}
 
+
 	input {
 		cursor: pointer;
 		width: 100%;
@@ -109,6 +110,8 @@
 	fieldset legend {
 		order: 2;
 		display: contents;
+		font-size: 0.9rem;
+		font-weight: 700;
 	}
 
 	fieldset .kol-input {

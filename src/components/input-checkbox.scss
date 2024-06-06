@@ -7,6 +7,13 @@
 		@include kol-alert-theme;
 	}
 
+	:host fieldset legend {
+		order: 2;
+		display: contents;
+		font-size: 0.9rem;
+		font-weight: 700;
+	}
+
 	:host .kol-input {
 		display: grid;
 		align-items: center;
@@ -14,6 +21,11 @@
 		width: 100%;
 		min-height: var(--a11y-min-size);
 		gap: 0.4rem;
+
+		.hint{
+			font-size: 0.9rem;
+		}
+
 	}
 
 	:host .kol-input.default {
@@ -108,7 +120,7 @@
 
 	:host .required label > span::after {
 		content: '*';
-		padding-left: 0.125em;
+		padding-left: 0.125rem;
 	}
 
 	:host .kol-input input[type='checkbox'] {
@@ -141,23 +153,23 @@
 
 	:host .kol-input.switch input[type='checkbox'] {
 		background-color: var(--color-subtle);
-		border-radius: 1.25em;
+		border-radius: 1.25rem;
 		border-width: 0;
 		display: block;
-		height: 1.5em;
-		min-width: 3.5em;
+		height: 1.5rem;
+		min-width: 3.5rem;
 		position: relative;
-		width: 3.5em;
+		width: 3.5rem;
 		/* Visible with forced colors  */
 		outline: transparent solid 1px;
 	}
 
 	:host .kol-input.switch input[type='checkbox']:before {
-		width: 1.25em;
-		height: 1.25em;
-		left: calc(0.25em - 2px);
-		top: calc(0.25em - 2px);
-		border-radius: 1.25em;
+		width: 1.25rem;
+		height: 1.25rem;
+		left: calc(0.25rem - 2px);
+		top: calc(0.25rem - 2px);
+		border-radius: 1.25rem;
 		background-color: white;
 		position: absolute;
 	}
@@ -167,26 +179,26 @@
 	}
 
 	:host .kol-input.switch input[type='checkbox']:checked:before {
-		transform: translateX(2em);
+		transform: translateX(2rem);
 	}
 
 	:host .kol-input.switch input[type='checkbox']:indeterminate:before {
-		transform: translateX(1em);
+		transform: translateX(1rem);
 	}
 
 	.switch {
 		& .icon {
-			width: 1.25em;
-			height: 1.25em;
+			width: 1.25rem;
+			height: 1.25rem;
 			left: 2px;
 		}
 
 		&.checked .icon {
-			transform: translate(2em, -50%);
+			transform: translate(2rem, -50%);
 		}
 
 		&.indeterminate .icon {
-			transform: translate(1em, -50%);
+			transform: translate(1rem, -50%);
 		}
 	}
 
@@ -269,4 +281,19 @@
 			outline: none;
 		}
 	}
+
+	.kol-input:not(.checkbox.switch, .radio) .input:focus,
+	.kol-input:not(.checkbox) .input:focus,
+	.kol-input:is(.checkbox.switch, .radio) input:focus,
+	.kol-input:is(.checkbox) input:focus{
+		cursor: pointer;
+		outline-color: var(--color-primary-variant);
+		outline-offset: 2px;
+		outline-style: solid;
+		outline-width: 2px;
+		transition: outline-offset 0.2s linear;
+	}
+
+
+
 }
