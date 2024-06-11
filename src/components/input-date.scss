@@ -16,6 +16,8 @@
 
 	.kol-input label {
 		order: 2;
+		font-size: 0.9rem;
+		font-weight: 700;
 	}
 
 	.kol-input .input {
@@ -41,7 +43,7 @@
 		border-color: var(--color-subtle);
 		border-radius: var(--border-radius);
 		border-style: solid;
-		border-width: 2px;
+		border-width: var(--border-width);
 		padding: 0 0.5rem;
 	}
 

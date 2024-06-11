@@ -12,7 +12,8 @@
 	}
 
 	.popover {
-		background: #fff;
+		background: var(--color-light);
+		top: calc(100% + 0.25rem);
 	}
 
 	.secondary-button button {
@@ -33,7 +34,7 @@
 		min-width: var(--a11y-min-size);
 		padding: 8px 14px;
 		text-align: center;
-		transition-duration: 0.5s;
+		transition-duration: 0.2s;
 		transition-property: background-color, color, border-color;
 	}
 

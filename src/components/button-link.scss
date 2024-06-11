@@ -12,14 +12,15 @@
 	}
 
 	:is(a, button):focus .kol-span-wc {
-		border-radius: var(--border-radius);
-		outline: calc(var(--border-width) * 2) solid;
+		border-radius: calc(var(--border-radius) / 2);
+		outline: var(--border-width) solid;
+		outline-offset: calc(1rem / 8);
 	}
 
-	a:hover:not([aria-disabled]),
+/*	a:hover:not([aria-disabled]),
 	button:hover:not([disabled]) {
 		text-decoration-thickness: 0.25em;
-	}
+	}*/
 
 	:is(a, button):visited {
 		color: var(--visited);

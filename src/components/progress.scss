@@ -23,4 +23,7 @@
 	.cycle .progress {
 		stroke: var(--color-primary-variant);
 	}
+	.bar .progress{
+		fill: var(--color-primary-variant);
+	}
 }

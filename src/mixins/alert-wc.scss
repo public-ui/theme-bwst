@@ -6,6 +6,7 @@
 @mixin kol-input-error-with-kol-alert-wc-error($color: null) {
 	color: var($color);
 	font-weight: 700;
+	font-size: 0.9rem;
 }
 
 @mixin kol-alert-theme {

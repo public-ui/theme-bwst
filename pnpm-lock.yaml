@@ -13,7 +13,7 @@ importers:
         version: 2.1.1
       '@public-ui/visual-tests':
         specifier: 2.1.1
-        version: 2.1.1(esbuild@0.20.2)(eslint@8.57.0)(less@4.2.0)(playwright@1.43.1)(postcss@8.4.38)(rollup@4.18.0)(sass@1.77.3)(webpack@5.91.0(@swc/core@1.5.0)(esbuild@0.20.2)(webpack-cli@4.10.0))
+        version: 2.1.1(esbuild@0.20.2)(eslint@8.57.0)(less@4.2.0)(playwright@1.43.1)(postcss@8.4.38)(rollup@4.18.0)(sass@1.77.4)(webpack@5.91.0(@swc/core@1.5.0)(esbuild@0.20.2)(webpack-cli@4.10.0))
       '@rollup/plugin-commonjs':
         specifier: 25.0.8
         version: 25.0.8(rollup@4.18.0)
@@ -54,8 +54,8 @@ importers:
         specifier: 4.0.2
         version: 4.0.2(postcss@8.4.38)
       sass:
-        specifier: 1.77.3
-        version: 1.77.3
+        specifier: 1.77.4
+        version: 1.77.4
       typescript:
         specifier: 5.4.5
         version: 5.4.5
@@ -4769,8 +4769,8 @@ packages:
     engines: {node: '>=14.0.0'}
     hasBin: true
 
-  sass@1.77.3:
-    resolution: {integrity: sha512-WJHo+jmFp0dwRuymPmIovuxHaBntcCyja5hCB0yYY9wWrViEp4kF5Cdai98P72v6FzroPuABqu+ddLMbQWmwzA==}
+  sass@1.77.4:
+    resolution: {integrity: sha512-vcF3Ckow6g939GMA4PeU7b2K/9FALXk2KF9J87txdHzXbUF9XRQRwSxcAs/fGaTnJeBFd7UoV22j3lzMLdM0Pw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -6040,7 +6040,7 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@leanup/stack-webpack@1.3.50(@leanup/stack@1.3.50(chromedriver@124.0.1)(esbuild@0.20.2)(typescript@5.4.5))(esbuild@0.20.2)(less@4.2.0)(postcss@8.4.38)(sass@1.77.3)':
+  '@leanup/stack-webpack@1.3.50(@leanup/stack@1.3.50(chromedriver@124.0.1)(esbuild@0.20.2)(typescript@5.4.5))(esbuild@0.20.2)(less@4.2.0)(postcss@8.4.38)(sass@1.77.4)':
     dependencies:
       '@leanup/stack': 1.3.50(chromedriver@124.0.1)(esbuild@0.20.2)(typescript@5.4.5)
       '@swc/core': 1.5.0
@@ -6052,7 +6052,7 @@ snapshots:
       less-loader: 10.2.0(less@4.2.0)(webpack@5.91.0(@swc/core@1.5.0)(esbuild@0.20.2)(webpack-cli@4.10.0))
       mini-css-extract-plugin: 2.9.0(webpack@5.91.0(@swc/core@1.5.0)(esbuild@0.20.2)(webpack-cli@4.10.0))
       postcss-loader: 6.2.1(postcss@8.4.38)(webpack@5.91.0(@swc/core@1.5.0)(esbuild@0.20.2)(webpack-cli@4.10.0))
-      sass-loader: 12.6.0(sass@1.77.3)(webpack@5.91.0(@swc/core@1.5.0)(esbuild@0.20.2)(webpack-cli@4.10.0))
+      sass-loader: 12.6.0(sass@1.77.4)(webpack@5.91.0(@swc/core@1.5.0)(esbuild@0.20.2)(webpack-cli@4.10.0))
       string-replace-loader: 3.1.0(webpack@5.91.0(@swc/core@1.5.0)(esbuild@0.20.2)(webpack-cli@4.10.0))
       swc-loader: 0.2.6(@swc/core@1.5.0)(webpack@5.91.0(@swc/core@1.5.0)(esbuild@0.20.2)(webpack-cli@4.10.0))
       webpack: 5.91.0(@swc/core@1.5.0)(esbuild@0.20.2)(webpack-cli@4.10.0)
@@ -6215,11 +6215,11 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@public-ui/sample-react@2.1.1(esbuild@0.20.2)(eslint@8.57.0)(less@4.2.0)(postcss@8.4.38)(rollup@4.18.0)(sass@1.77.3)(webpack@5.91.0(@swc/core@1.5.0)(esbuild@0.20.2)(webpack-cli@4.10.0))':
+  '@public-ui/sample-react@2.1.1(esbuild@0.20.2)(eslint@8.57.0)(less@4.2.0)(postcss@8.4.38)(rollup@4.18.0)(sass@1.77.4)(webpack@5.91.0(@swc/core@1.5.0)(esbuild@0.20.2)(webpack-cli@4.10.0))':
     dependencies:
       '@leanup/stack': 1.3.50(chromedriver@124.0.1)(esbuild@0.20.2)(typescript@5.4.5)
       '@leanup/stack-react': 1.3.50(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@leanup/stack-webpack': 1.3.50(@leanup/stack@1.3.50(chromedriver@124.0.1)(esbuild@0.20.2)(typescript@5.4.5))(esbuild@0.20.2)(less@4.2.0)(postcss@8.4.38)(sass@1.77.3)
+      '@leanup/stack-webpack': 1.3.50(@leanup/stack@1.3.50(chromedriver@124.0.1)(esbuild@0.20.2)(typescript@5.4.5))(esbuild@0.20.2)(less@4.2.0)(postcss@8.4.38)(sass@1.77.4)
       '@public-ui/components': 2.1.1
       '@public-ui/react': 2.1.1(@public-ui/components@2.1.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@public-ui/themes': 2.1.1(@public-ui/components@2.1.1)
@@ -6274,10 +6274,10 @@ snapshots:
     dependencies:
       '@public-ui/components': 2.1.1
 
-  '@public-ui/visual-tests@2.1.1(esbuild@0.20.2)(eslint@8.57.0)(less@4.2.0)(playwright@1.43.1)(postcss@8.4.38)(rollup@4.18.0)(sass@1.77.3)(webpack@5.91.0(@swc/core@1.5.0)(esbuild@0.20.2)(webpack-cli@4.10.0))':
+  '@public-ui/visual-tests@2.1.1(esbuild@0.20.2)(eslint@8.57.0)(less@4.2.0)(playwright@1.43.1)(postcss@8.4.38)(rollup@4.18.0)(sass@1.77.4)(webpack@5.91.0(@swc/core@1.5.0)(esbuild@0.20.2)(webpack-cli@4.10.0))':
     dependencies:
       '@playwright/test': 1.43.1
-      '@public-ui/sample-react': 2.1.1(esbuild@0.20.2)(eslint@8.57.0)(less@4.2.0)(postcss@8.4.38)(rollup@4.18.0)(sass@1.77.3)(webpack@5.91.0(@swc/core@1.5.0)(esbuild@0.20.2)(webpack-cli@4.10.0))
+      '@public-ui/sample-react': 2.1.1(esbuild@0.20.2)(eslint@8.57.0)(less@4.2.0)(postcss@8.4.38)(rollup@4.18.0)(sass@1.77.4)(webpack@5.91.0(@swc/core@1.5.0)(esbuild@0.20.2)(webpack-cli@4.10.0))
       axe-playwright: 2.0.1(playwright@1.43.1)
       portfinder: 1.0.32
       serve: 14.2.3
@@ -11023,13 +11023,13 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  sass-loader@12.6.0(sass@1.77.3)(webpack@5.91.0(@swc/core@1.5.0)(esbuild@0.20.2)(webpack-cli@4.10.0)):
+  sass-loader@12.6.0(sass@1.77.4)(webpack@5.91.0(@swc/core@1.5.0)(esbuild@0.20.2)(webpack-cli@4.10.0)):
     dependencies:
       klona: 2.0.6
       neo-async: 2.6.2
       webpack: 5.91.0(@swc/core@1.5.0)(esbuild@0.20.2)(webpack-cli@4.10.0)
     optionalDependencies:
-      sass: 1.77.3
+      sass: 1.77.4
 
   sass@1.75.0:
     dependencies:
@@ -11037,7 +11037,7 @@ snapshots:
       immutable: 4.3.5
       source-map-js: 1.2.0
 
-  sass@1.77.3:
+  sass@1.77.4:
     dependencies:
       chokidar: 3.6.0
       immutable: 4.3.5

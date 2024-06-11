@@ -16,15 +16,16 @@
 	}
 
 	:is(a, button) > .kol-span-wc {
-		font-weight: 700;
-		border-radius: var(--a11y-min-size);
+		font-weight: 400;
+		border-radius: var(--border-radius);
 		border-style: solid;
+		border-width: var(--border-width);
 		outline-width: calc(var(--border-width) * 2);
 		min-height: var(--a11y-min-size);
 		min-width: var(--a11y-min-size);
 		padding: 8px 14px;
 		text-align: center;
-		transition-duration: 0.5s;
+		transition-duration: 0.2s;
 		transition-property: background-color, color, border-color;
 	}
 
