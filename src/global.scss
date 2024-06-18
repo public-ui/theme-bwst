@@ -3,9 +3,9 @@
 	:root {
 		--blue: #6495ed;
 		--white: #faf0e6;
+		background-color: var(--blue);
 	}
 
-	:root { background-color: var(--blue); }
 
 	:host {
 		--label-weight: 700;
@@ -34,6 +34,7 @@
 		--visited: var(--color-primary-light);
 		--border-color: #ededed;
 		--a11y-min-size: 44px;
+		--button-font-weight: 400;
 	}
 
 
