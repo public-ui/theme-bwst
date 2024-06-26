@@ -7,15 +7,7 @@
 	}
 
 
-
-
-
-
-
-
-
-
-	@media (min-width: 1024px) {
+	//@media (min-width: 1024px) {
 		:host > div {
 			overflow-x: auto;
 			overflow-y: hidden;
@@ -26,8 +18,9 @@
 		}
 
 		th {
-			font-weight: normal;
+			font-weight: 700;
 			color: var(--color-primary);
+			text-align: left;
 		}
 
 		:host table thead tr:first-child th,
@@ -55,7 +48,7 @@
 			border-spacing: 0;
 		}
 
-		table,
+
 		:host table thead tr:last-child th,
 		:host table thead tr:last-child td {
 			border-width: 0;
@@ -94,4 +87,19 @@
 			align-items: center;
 		}
 	}
+
+	caption {
+		font-size: 1.1rem;
+		font-weight: 700;
+	}
+
+	 td, th{
+		border-right: 1px solid var(--color-primary) ;
+		&:last-of-type{
+			border-right-width: 0 ;
+		}
+	}
+div.pagination, div.pagination > div:last-child {
+	gap: 4px;
 }
+//}
